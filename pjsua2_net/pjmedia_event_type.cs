@@ -10,14 +10,14 @@ namespace pjsua2 {
 
 public enum pjmedia_event_type {
   PJMEDIA_EVENT_NONE,
-  PJMEDIA_EVENT_FMT_CHANGED = ((((int)'H' << 24)|((int)'C' << 16))|((int)'M' << 8))|(int)'F',
-  PJMEDIA_EVENT_WND_CLOSING = ((((int)'L' << 24)|((int)'C' << 16))|((int)'N' << 8))|(int)'W',
-  PJMEDIA_EVENT_WND_CLOSED = ((((int)'O' << 24)|((int)'C' << 16))|((int)'N' << 8))|(int)'W',
-  PJMEDIA_EVENT_WND_RESIZED = ((((int)'Z' << 24)|((int)'R' << 16))|((int)'N' << 8))|(int)'W',
-  PJMEDIA_EVENT_MOUSE_BTN_DOWN = ((((int)'N' << 24)|((int)'D' << 16))|((int)'S' << 8))|(int)'M',
-  PJMEDIA_EVENT_KEYFRAME_FOUND = ((((int)'F' << 24)|((int)'R' << 16))|((int)'F' << 8))|(int)'I',
-  PJMEDIA_EVENT_KEYFRAME_MISSING = ((((int)'M' << 24)|((int)'R' << 16))|((int)'F' << 8))|(int)'I',
-  PJMEDIA_EVENT_ORIENT_CHANGED = ((((int)'T' << 24)|((int)'N' << 16))|((int)'R' << 8))|(int)'O'
+  PJMEDIA_EVENT_FMT_CHANGED = 1179468616,
+  PJMEDIA_EVENT_WND_CLOSING = 1464746828,
+  PJMEDIA_EVENT_WND_CLOSED = 1464746831,
+  PJMEDIA_EVENT_WND_RESIZED = 1464750682,
+  PJMEDIA_EVENT_MOUSE_BTN_DOWN = 1297302606,
+  PJMEDIA_EVENT_KEYFRAME_FOUND = 1229345350,
+  PJMEDIA_EVENT_KEYFRAME_MISSING = 1229345357,
+  PJMEDIA_EVENT_ORIENT_CHANGED = 1330794068
 }
 
 }
