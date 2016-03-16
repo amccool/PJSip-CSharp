@@ -221,6 +221,12 @@
     <Compile Include="UserEvent.cs" />
     <Compile Include="Version.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\pjsua2\pjsua2.vcxproj">
+      <Project>{26505aca-e487-4f6f-97c8-8645b2fa32ed}</Project>
+      <Name>pjsua2</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
