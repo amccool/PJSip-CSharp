@@ -41,14 +41,74 @@
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-release-static-defaults.props" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-debug-dynamic-defaults.props" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-release-dynamic-defaults.props" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-debug-static-defaults.props" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-release-dynamic-defaults.props" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-win32-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-debug-static-defaults.props" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-win32-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-Static|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-release-static-defaults.props" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-win64-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Dynamic|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-debug-dynamic-defaults.props" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-win64-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-Dynamic|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-release-dynamic-defaults.props" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-win64-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-Static|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-debug-static-defaults.props" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-win64-common-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-release-dynamic-defaults.props" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-win64-release-defaults.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-debug-static-defaults.props" />
+    <Import Project="$(SolutionDir)\build\vs\pjproject-vs8-win64-common-defaults.props" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>.\output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
+    <OutDir>$(ProjectDir)output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>.\output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
+    <OutDir>$(ProjectDir)\output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -58,15 +118,16 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;PJSUA2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\pjsip\include;..\pjlib\include;..\pjlib-util\include;..\pjmedia\include;..\pjnath\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)pjsip\include;$(SolutionDir)pjlib\include;$(SolutionDir)pjlib-util\include;$(SolutionDir)pjmedia\include;$(SolutionDir)pjnath\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalUsingDirectories>
       </AdditionalUsingDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>pjsua-lib-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;pjsua2-lib-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;pjlib-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;pjlib-util-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;pjsip-core-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;pjnath-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;pjmedia-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;pjmedia-audiodev-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;pjmedia-videodev-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;pjsip-simple-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;pjsip-ua-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;libspeex-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;pjmedia-codec-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;libsrtp-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;libgsmcodec-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;libresample-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;libilbccodec-$(TargetCPU)-$(PlatformName)-vc8-$(Configuration)-Dynamic.lib;Ws2-32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\pjsip\lib;..\pjlib-util\lib;..\pjlib\lib;..\pjnath\lib;..\pjmedia\lib;..\third_party\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libpjproject-$(TargetCPU)-$(PlatformName)-vc$(VsVer)-$(Configuration)-Static.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)pjsip\lib;$(SolutionDir)pjlib-util\lib;$(SolutionDir)pjlib\lib;$(SolutionDir)pjnath\lib;$(SolutionDir)pjmedia\lib;$(SolutionDir)third_party\lib;$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(SolutionDIR)bin\$(ProjectName)-$(TargetCPU)-$(Platform)-vc$(VSVer)-$(Configuration).dll</OutputFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -79,7 +140,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;PJSUA2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\pjsip\include;..\pjlib\include;..\pjlib-util\include;..\pjmedia\include;..\pjnath\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\pjsip\include;$(SolutionDir)\pjlib\include;$(SolutionDir)\pjlib-util\include;$(SolutionDir)\pjmedia\include;$(SolutionDir)\pjnath\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalUsingDirectories>
       </AdditionalUsingDirectories>
     </ClCompile>
@@ -88,8 +149,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>.\pjsip\lib;..\pjsip\lib;..\..\pjsip\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>pjsua-lib$(TargetCPU)-$(PlatformName)-vc8-$(Configuration).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\pjsip\lib;$(SolutionDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libpjproject-$(TargetCPU)-$(PlatformName)-vc$(VsVer)-$(Configuration)-Dynamic.lib;pjsua-lib-$(TargetCPU)-$(PlatformName)-vc$(VsVer)-$(Configuration)-Dynamic.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
