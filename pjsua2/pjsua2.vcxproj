@@ -13,6 +13,9 @@
   <ItemGroup>
     <ClCompile Include="pjsua2_wrap.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pjsua2_wrap.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{26505ACA-E487-4F6F-97C8-8645B2FA32ED}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
