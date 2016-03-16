@@ -129,7 +129,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>libpjproject-$(TargetCPU)-$(PlatformName)-vc$(VsVer)-$(Configuration)-Static.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libpjproject-$(TargetCPU)-$(PlatformName)-vc$(VsVer)-$(Configuration)-Dynamic.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <OutputFile>$(SolutionDIR)bin\$(ProjectName)-$(TargetCPU)-$(Platform)-vc$(VSVer)-$(Configuration).dll</OutputFile>
     </Link>
@@ -154,7 +154,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libpjproject-$(TargetCPU)-$(PlatformName)-vc$(VsVer)-$(Configuration)-Static.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libpjproject-$(TargetCPU)-$(PlatformName)-vc$(VsVer)-$(Configuration)-Dynamic.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(SolutionDIR)bin\$(ProjectName)-$(TargetCPU)-$(Platform)-vc$(VSVer)-$(Configuration).dll</OutputFile>
     </Link>
   </ItemDefinitionGroup>
