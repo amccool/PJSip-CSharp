@@ -15,6 +15,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pjsua2_wrap.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="versioninfo.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{26505ACA-E487-4F6F-97C8-8645B2FA32ED}</ProjectGuid>
@@ -132,7 +136,8 @@
       <AdditionalDependencies>libpjproject-$(TargetCPU)-$(PlatformName)-vc$(VsVer)-$(Configuration)-Dynamic.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <OutputFile>$(SolutionDIR)bin\$(ProjectName)-$(TargetCPU)-$(Platform)-vc$(VSVer)-$(Configuration).dll</OutputFile>
-      <Version>2.4.5</Version>
+      <Version>
+      </Version>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -157,7 +162,8 @@
       <AdditionalLibraryDirectories>$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libpjproject-$(TargetCPU)-$(PlatformName)-vc$(VsVer)-$(Configuration)-Dynamic.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(SolutionDIR)bin\$(ProjectName)-$(TargetCPU)-$(Platform)-vc$(VSVer)-$(Configuration).dll</OutputFile>
-      <Version>2.4.5</Version>
+      <Version>
+      </Version>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
