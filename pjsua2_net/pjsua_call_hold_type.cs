@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pjsua_call_hold_type {
   PJSUA_CALL_HOLD_TYPE_RFC3264,

@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pjmedia_vid_dev_std_index {
   PJMEDIA_VID_DEFAULT_CAPTURE_DEV = -1,

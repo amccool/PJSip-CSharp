@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pjsua_call_vid_strm_op {
   PJSUA_CALL_VID_STRM_NO_OP,

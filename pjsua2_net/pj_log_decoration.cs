@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pj_log_decoration {
   PJ_LOG_HAS_DAY_NAME = 1,

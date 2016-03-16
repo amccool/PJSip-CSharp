@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pj_qos_wmm_prio {
   PJ_QOS_WMM_PRIO_BULK_EFFORT,

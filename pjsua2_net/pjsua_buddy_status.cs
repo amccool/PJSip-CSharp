@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pjsua_buddy_status {
   PJSUA_BUDDY_STATUS_UNKNOWN,

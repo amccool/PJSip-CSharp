@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public class ToneDesc : pjmedia_tone_desc {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;

@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pjsip_ssl_method {
   PJSIP_SSL_UNSPECIFIED_METHOD = 0,

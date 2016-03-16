@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pjmedia_aud_dev_route {
   PJMEDIA_AUD_DEV_ROUTE_DEFAULT = 0,

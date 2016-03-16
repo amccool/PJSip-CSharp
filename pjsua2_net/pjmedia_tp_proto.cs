@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pjmedia_tp_proto {
   PJMEDIA_TP_PROTO_NONE = 0,

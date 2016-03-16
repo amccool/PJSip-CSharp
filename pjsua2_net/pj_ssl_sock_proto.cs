@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pj_ssl_sock_proto {
   PJ_SSL_SOCK_PROTO_DEFAULT = 0,

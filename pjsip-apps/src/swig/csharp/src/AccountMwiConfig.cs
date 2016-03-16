@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public class AccountMwiConfig : PersistentObject {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;

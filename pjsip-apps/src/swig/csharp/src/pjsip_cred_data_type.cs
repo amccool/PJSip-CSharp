@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pjsip_cred_data_type {
   PJSIP_CRED_DATA_PLAIN_PASSWD = 0,

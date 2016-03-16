@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pjsip_dialog_cap_status {
   PJSIP_DIALOG_CAP_UNSUPPORTED = 0,

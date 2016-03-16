@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public class pjsua2 {
   public static readonly int INVALID_ID = pjsua2PINVOKE.INVALID_ID_get();

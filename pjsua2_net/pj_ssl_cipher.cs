@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pj_ssl_cipher {
   PJ_TLS_UNKNOWN_CIPHER = -1,

@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public class AudioDevInfoVector : global::System.IDisposable, global::System.Collections.IEnumerable
     , global::System.Collections.Generic.IList<AudioDevInfo>

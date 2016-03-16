@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pjmedia_vid_stream_rc_method {
   PJMEDIA_VID_STREAM_RC_NONE = 0,

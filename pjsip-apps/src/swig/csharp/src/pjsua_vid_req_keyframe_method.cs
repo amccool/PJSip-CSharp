@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pjsua_vid_req_keyframe_method {
   PJSUA_VID_REQ_KEYFRAME_SIP_INFO = 1,

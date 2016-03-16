@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public class AudDevManager : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;

@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public class pj_qos_params : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;

@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pj_stun_nat_type {
   PJ_STUN_NAT_TYPE_UNKNOWN,

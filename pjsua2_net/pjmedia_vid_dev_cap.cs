@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace pjsua2 {
+namespace PJSIP {
 
 public enum pjmedia_vid_dev_cap {
   PJMEDIA_VID_DEV_CAP_FORMAT = 1,
