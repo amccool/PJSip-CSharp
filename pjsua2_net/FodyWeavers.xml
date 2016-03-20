@@ -1,11 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Weavers>
+<?xml version="1.0" encoding="utf-8" ?>
+<Weavers VerifyAssembly="true">
   <Costura>
     <Unmanaged32Assemblies>
       pjsua2
     </Unmanaged32Assemblies>
-    <Unmanaged64Assemblies>
-      pjsua2
-    </Unmanaged64Assemblies>
   </Costura>
 </Weavers>
