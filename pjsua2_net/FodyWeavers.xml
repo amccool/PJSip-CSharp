@@ -2,9 +2,11 @@
 <Weavers VerifyAssembly="true">
   <Costura>
     <Unmanaged32Assemblies>
+      pjsua2_i386d
       pjsua2_i386
     </Unmanaged32Assemblies>
     <Unmanaged64Assemblies>
+      pjsua2_x86_64d
       pjsua2_x86_64
     </Unmanaged64Assemblies>
   </Costura>
