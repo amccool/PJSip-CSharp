@@ -175,21 +175,25 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(ProjectDir)output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
     <IntDir>$(OutDir)</IntDir>
+    <TargetName>$(ProjectName)_$(TargetCPU)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-	<OutDir>$(ProjectDir)output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
+    <OutDir>$(ProjectDir)output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
     <IntDir>$(OutDir)</IntDir>
+    <TargetName>$(ProjectName)_$(TargetCPU)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(ProjectDir)output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
     <IntDir>$(OutDir)</IntDir>
+    <TargetName>$(ProjectName)_$(TargetCPU)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-	<OutDir>$(ProjectDir)output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
+    <OutDir>$(ProjectDir)output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
     <IntDir>$(OutDir)</IntDir>
+    <TargetName>$(ProjectName)_$(TargetCPU)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -210,7 +214,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>libpjproject-$(TargetCPU)-$(PlatformName)-vc$(VsVer)-$(Configuration)-Dynamic.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <OutputFile>$(OutputPath)$(ProjectName)_$(TargetCPU).dll</OutputFile>
+      <OutputFile>$(OutputPath)$(TargetName)$(TargetExt)</OutputFile>
       <Version>
       </Version>
     </Link>
@@ -234,7 +238,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>libpjproject-$(TargetCPU)-$(PlatformName)-vc$(VsVer)-$(Configuration)-Dynamic.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <OutputFile>$(OutputPath)$(ProjectName)_$(TargetCPU).dll</OutputFile>
+      <OutputFile>$(OutputPath)$(TargetName)$(TargetExt)</OutputFile>
       <Version>
       </Version>
     </Link>
@@ -260,7 +264,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libpjproject-$(TargetCPU)-$(PlatformName)-vc$(VsVer)-$(Configuration)-Dynamic.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutputPath)$(ProjectName)_$(TargetCPU).dll</OutputFile>
+      <OutputFile>$(OutputPath)$(TargetName)$(TargetExt)</OutputFile>
       <Version>
       </Version>
     </Link>
@@ -286,7 +290,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>$(SolutionDir)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libpjproject-$(TargetCPU)-$(PlatformName)-vc$(VsVer)-$(Configuration)-Dynamic.lib;Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutputPath)$(ProjectName)_$(TargetCPU).dll</OutputFile>
+      <OutputFile>$(OutputPath)$(TargetName)$(TargetExt)</OutputFile>
       <Version>
       </Version>
     </Link>
