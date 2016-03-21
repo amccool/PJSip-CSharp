@@ -267,37 +267,37 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(ProjectDir)output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
     <IntDir>$(OutDir)</IntDir>
-    <TargetName>$(ProjectName)_$(TargetCPU)d</TargetName>
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Debug-Dynamic'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(ProjectDir)output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
     <IntDir>$(OutDir)</IntDir>
-    <TargetName>$(ProjectName)_$(TargetCPU)d</TargetName>
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Debug-Static'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(ProjectDir)output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
     <IntDir>$(OutDir)</IntDir>
-    <TargetName>$(ProjectName)_$(TargetCPU)d</TargetName>
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(ProjectDir)output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
     <IntDir>$(OutDir)</IntDir>
-    <TargetName>$(ProjectName)_$(TargetCPU)</TargetName>
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Release-Dynamic'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(ProjectDir)output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
     <IntDir>$(OutDir)</IntDir>
-    <TargetName>$(ProjectName)_$(TargetCPU)</TargetName>
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Release-Static'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(ProjectDir)output\$(ProjectName)-$(TargetCPU)-$(PlatformName)-vc$(VSVer)-$(Configuration)\</OutDir>
     <IntDir>$(OutDir)</IntDir>
-    <TargetName>$(ProjectName)_$(TargetCPU)</TargetName>
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
